@@ -1,0 +1,37 @@
+ .rec-arrow{
+    box-shadow: 0 0 1px 3px rgb(126,109,90) !important;
+    background-color:#383027 !important;
+    color: white !important;
+  }
+  button:disabled{
+    color: rgb(206, 206, 206) !important;
+    background-color:#887359 !important;
+    box-shadow: 0 0 1px 3px rgb(192, 168, 139) !important;
+
+}
+  .rec-dot_active{
+    background-color:#383027 !important;
+    box-shadow: 0 0 1px 3px rgb(126,109,90) !important;
+  }
+  .rec-arrow:hover,.rec-arrow:focus, .rec-arrow:active{
+    box-shadow: 0 0 1px 3px rgb(126,109,90) !important;
+  }
+  .rec-dot:hover,.rec-dot:focus{
+    box-shadow: 0 0 1px 3px rgb(126,109,90) !important;
+  }
+    @media screen and (max-width: 944px) {
+      .rec-arrow-left{
+        visibility:hidden !important;
+      }
+      .rec-arrow-right {
+        visibility:hidden !important;
+      }
+    }
+    @media screen and (max-width: 840px) {
+      .rec-arrow-left{
+        display:none !important;
+      }
+      .rec-arrow-right {
+        display:none !important;
+      }
+    }
